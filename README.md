@@ -9,3 +9,7 @@
  - Connecting to web service.
  - Making SOAP calls to web service.
  - Routes/routing.
+
+## TODO:
+ - Database functionality.
+ - Integrate sessions.
