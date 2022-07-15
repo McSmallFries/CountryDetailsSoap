@@ -2,7 +2,7 @@
 /**
  * homepage.php
  *
- * display the check primes application homepage
+ * display the homepage
  *
  */
 
@@ -39,7 +39,7 @@ $app->get('/', function(Request $request, Response $response) use ($app)
 })->setName('homepage');
 
 /**
- * delegate to Twig ProcessOutput
+ * delegate to Slim ProcessOutput
  */
 function processOutput($app, $html_output)
 {
